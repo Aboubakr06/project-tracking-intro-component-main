@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="text-lg font-Barlow text-[var(--neutral-grey)] font-normal bg-white relative">
+  <header class="flex items-center justify-between px-8 py-10 lg:px-36 lg:py-16">
+    <img src="images/logo.svg" alt="Logo">
+    <a class="menu-open lg:hidden"><img src="images/icon-hamburger.svg" alt="Open Menu"></a>
+    <a class="menu-close hidden lg:hidden"><img src="images/icon-close.svg" alt="Close Menu"></a>
+    <div
+      class="menu max-lg:hidden z-10 flex max-lg:flex-col max-lg:gap-4 max-lg:drop-shadow-xl font-Barlow-Condensed text-[var(--neutral-blue)] tracking-wider font-bold uppercase max-lg:place-items-center max-lg:rounded-sm max-lg:p-6 max-lg:bg-white max-lg:absolute max-lg:w-[80%] max-lg:top-28 max-lg:left-[10%] lg:items-center lg:gap-10">
+      <a class="hover:underline underline-offset-4" href="#">Product</a>
+      <a class="hover:underline underline-offset-4" href="#">Features</a>
+      <a class="hover:underline underline-offset-4" href="#">Pricing</a>
+      <span class="lg:hidden w-full my-2 border-t border-solid border-[var(--neutral-grey)]"></span>
+      <span class="lg:block bg-[var(--neutral-grey)] rounded-full w-2 h-2 hidden"></span>
+      <a class="hover:underline underline-offset-4 text-[var(--neutral-grey)]" href="#">Login</a>
+    </div>
+  </header>
+  <main class="grid py-8 gap-8 overflow-hidden lg:grid-cols-2 lg:grid-rows-1">
+    <span class="-z-10 absolute top-0 right-0 bg-[var(--neutral-light-grey)] w-1/2 h-3/4 rounded-bl-full lg:rounded-bl-3xl"></span>
+    <img class="relative left-8 lg:left-20" src="images/illustration-devices.svg" alt="" aria-hidden="true">
+
+    <section class="grid gap-6 px-8 py-4 lg:pl-36 lg:col-start-1 lg:row-start-1">
+
+      <div class="flex items-center gap-4 uppercase tracking-widest font-Barlow-Condensed">
+        <p class="font-bold text-[var(--neutral-light-grey)] bg-[var(--neutral-blue)] rounded-full px-3">New</p>
+        <p>Monograph Dashboard</p>
+      </div>
+
+      <h1 class="text-4xl uppercase font-bold text-[var(--neutral-blue)] font-Barlow-Condensed lg:text-6xl">Powerful insights into your team</h1>
+      <p class="text-2xl text-[var(--neutral-dark-grey)] lg:mr-28 lg:mb-8">Project planning and time tracking for agile teams</p>
+
+      <div class="flex items-center gap-4 uppercase tracking-widest text-base font-Barlow-Condensed">
+        <a class="bg-[var(--primary-red)] text-[var(--neutral-light-grey)] font-bold text-sm rounded-md px-4 py-3 cursor-pointer hover:opacity-70 lg:px-8" href="#">Schedule a demo</a>
+        <p>to see a live preview</p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
