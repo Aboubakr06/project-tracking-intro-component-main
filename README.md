@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/)
+- Solution URL: (https://www.frontendmentor.io/solutions/project-tracking-intro-component-4VwaDGFkgz)
 - Live Site URL: (https://regal-horse-1590fd.netlify.app/)
 
 ## My process
